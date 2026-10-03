@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Help Desk Dashboard</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        .header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 50px auto;
+        }
+
+        .card {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card h2 {
+            color: #222;
+            margin-bottom: 15px;
+        }
+
+        .success {
+            color: green;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .info {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #0d6efd;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: #084298;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Help Desk Ticketing System</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h2>Welcome to Dashboard</h2>
+
+            <p class="success">
+                Login successful!
+            </p>
+
+            <p class="info">
+                You can manage your help desk tickets here.
+            </p>
+
+            <a href="/create-ticket" class="button">
+                Create Ticket
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
